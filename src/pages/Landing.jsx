@@ -3,6 +3,7 @@ import {Hero} from '../component/LandingPageSection/HeroSection/Hero'
 import {Info} from '../component/LandingPageSection/InfoUnderHero/Info'
 import { AboutUs } from '../component/LandingPageSection/AboutUs/AboutUs'
 import { StatSection } from '../component/LandingPageSection/StatSection/Stat-comp'
+import { WhyUs } from '../component/LandingPageSection/WhyUs/WhyUs'
 
 export const LandingPage = ()=> {
     return(
@@ -15,8 +16,8 @@ export const LandingPage = ()=> {
                  <Info />
                 <AboutUs />
                  <StatSection />
-                {/* // <WhyUs />
-                // <Testimonials />
+                <WhyUs />
+                {/* // <Testimonials />
                 // <Instructors />
                 // <Newsletter /> */}
             </main>
