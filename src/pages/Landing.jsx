@@ -2,6 +2,7 @@ import {PageHeader} from '../component/LandingPageSection/PageHeader/PageHeader'
 import {Hero} from '../component/LandingPageSection/HeroSection/Hero'
 import {Info} from '../component/LandingPageSection/InfoUnderHero/Info'
 import { AboutUs } from '../component/LandingPageSection/AboutUs/AboutUs'
+import { StatSection } from '../component/LandingPageSection/StatSection/Stat-comp'
 
 export const LandingPage = ()=> {
     return(
@@ -13,8 +14,8 @@ export const LandingPage = ()=> {
                 <Hero />
                  <Info />
                 <AboutUs />
-                {/* // <MidSection />
-                // <WhyUs />
+                 <StatSection />
+                {/* // <WhyUs />
                 // <Testimonials />
                 // <Instructors />
                 // <Newsletter /> */}
