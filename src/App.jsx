@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './theme/variable.css'
-import Landing from './pages/Landing'
+import {LandingPage} from './pages/Landing'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Landing/>
+      <LandingPage/>
     </>
   )
 }

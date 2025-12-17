@@ -1,8 +1,9 @@
-import PageHeader from '../component/PageHeader/PageHeader'
+import {PageHeader} from '../component/PageHeader/PageHeader'
 
-export const PageHeader = ()=>{
+export const LandingPage = ()=>{
     return(
         <>
+        <PageHeader/>
         </>
     )
 }
