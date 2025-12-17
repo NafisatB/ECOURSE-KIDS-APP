@@ -9,7 +9,7 @@ import LinkedinIcon from "../../assets/icons/linkedin.svg?react";
 
 export const PageBanner = () => {
   return (
-    <section className="hidden md:block bg-primary text-white font-sora text-xs md:text-sm">
+    <div className="hidden md:block bg-primary text-white font-sora text-xs md:text-sm">
       <div className="max-w-[1320px] mx-auto h-[50px] items-center flex flex-col md:flex-row justify-between">
         
         {/* Left section */}
@@ -48,6 +48,6 @@ export const PageBanner = () => {
 
         </div>
       </div>
-    </section>
+    </div>
   );
 };
