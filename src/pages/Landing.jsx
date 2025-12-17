@@ -4,6 +4,7 @@ import {Info} from '../component/LandingPageSection/InfoUnderHero/Info'
 import { AboutUs } from '../component/LandingPageSection/AboutUs/AboutUs'
 import { StatSection } from '../component/LandingPageSection/StatSection/Stat-comp'
 import { WhyUs } from '../component/LandingPageSection/WhyUs/WhyUs'
+import { Testimonial } from '../component/LandingPageSection/Testimonial/Testimonial'
 
 export const LandingPage = ()=> {
     return(
@@ -17,8 +18,8 @@ export const LandingPage = ()=> {
                 <AboutUs />
                  <StatSection />
                 <WhyUs />
-                {/* // <Testimonials />
-                // <Instructors />
+                <Testimonial />
+                {/* // <Instructors />
                 // <Newsletter /> */}
             </main>
             {/* // <footer style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">

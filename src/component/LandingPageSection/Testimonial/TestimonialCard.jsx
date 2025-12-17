@@ -1,5 +1,5 @@
 import './TestimonialCard.css'
-import StarRating from '../../assets/icons/ratings.svg?react'
+import StarRating from '../../../assets/icons/ratings.svg?react'
 
 export function TestimonialCard({image, name, title}) {
     return(

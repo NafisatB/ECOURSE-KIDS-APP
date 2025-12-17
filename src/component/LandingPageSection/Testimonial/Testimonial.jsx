@@ -1,10 +1,10 @@
-import Cloud from '../../../assets/icons/cloud.svg?react'
+import Cloud from '../../../assets/images/cloud.svg?react'
 import { TestimonialCard } from './TestimonialCard'
 import { Title } from '../../Headings/Heading'
-import User1 from '../../assets/images/user1.svg?react'
-import Sun from '../../assets/images/hero-sun.svg?react'
+import User1 from '../../../assets/images/user1.svg?react'
+import Sun from '../../../assets/images/hero-sun.svg?react'
 
-export function Testimonials() {
+export function Testimonial() {
     return(
         <div className="relative lg:py-30 py-15 px-5 lg:px-0">
             <Cloud
@@ -12,7 +12,7 @@ export function Testimonials() {
             />
             <div className='max-w-[1320px] mx-auto'>
                 <div>
-                    <Title title="Testimonials" align='center'>
+                    <Title title="Testimonial" align='center'>
                         What parents say
                     </Title>
                     <div className='lg:grid grid-cols-3 lg:gap-10 mt-10 flex flex-col items-center gap-5'>
