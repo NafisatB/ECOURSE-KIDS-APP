@@ -1,5 +1,6 @@
 import {PageHeader} from '../component/PageHeader/PageHeader'
 import {Hero} from '../component/HeroSection/Hero'
+import {Info} from '../component/InfoUnderHero/Info'
 
 export const LandingPage = ()=> {
     return(
@@ -9,8 +10,8 @@ export const LandingPage = ()=> {
             </header>
             <main>
                 <Hero />
-                {/* // <Info />
-                // <AboutUs />
+                 <Info />
+                {/* // <AboutUs />
                 // <MidSection />
                 // <WhyUs />
                 // <Testimonials />
