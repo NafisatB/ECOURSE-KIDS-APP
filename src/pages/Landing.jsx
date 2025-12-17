@@ -1,6 +1,6 @@
-import {PageHeader} from '../component/PageHeader/PageHeader'
-import {Hero} from '../component/HeroSection/Hero'
-import {Info} from '../component/InfoUnderHero/Info'
+import {PageHeader} from '../component/LandingPageSection/PageHeader/PageHeader'
+import {Hero} from '../component/LandingPageSection/HeroSection/Hero'
+import {Info} from '../component/LandingPageSection/InfoUnderHero/Info'
 
 export const LandingPage = ()=> {
     return(

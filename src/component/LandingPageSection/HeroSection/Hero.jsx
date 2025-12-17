@@ -1,6 +1,6 @@
 import HeroBird from '../../assets/images/hero-bird.svg?react'
 import HeroSun from '../../assets/images/hero-sun.svg?react'
-import { Button } from '../Button/Button'
+import { Button } from '../../Button/Button'
 import PlayIcon from '../../assets/icons/play.svg?react'
 import HeroCross from '../../assets/icons/hero-cross.svg?react'
 import HeroArrow from '../../assets/icons/hero-arrow.svg?react'

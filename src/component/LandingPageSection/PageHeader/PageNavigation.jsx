@@ -3,7 +3,7 @@ import EdunityLogo from '../../assets/icons/edunity-logo.svg?react'
 import ArrowDownIcon from '../../assets/icons/arrow-down.svg?react'
 import SearchIcon from '../../assets/icons/search.svg?react';
 import UserIcon from '../../assets/icons/user.svg?react';
-import { Button } from '../Button/Button';
+import { Button } from '../../Button/Button';
 
 export function PageNavigation () {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
