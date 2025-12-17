@@ -1,0 +1,83 @@
+.instructor-card {
+    background-color: white;
+    width: fit-content;
+    position: relative;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.instructor-card__img {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    overflow: hidden;
+}
+
+.instructor-card__img svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.instructor__card-details {
+    padding: 20px;
+}
+
+.instructor-card__name {
+    font-family: var(--font-epilogue);
+    color: var(--color-text-primary);
+    font-size: 1.3125rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.instructor-card__role {
+    font-family: var(--font-sora);
+    color: var(--color-secondary);
+    font-size: 17px;
+}
+
+.instructor-card__share {
+    background-color: var(--color-primary);
+    width: fit-content;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 5.5rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .instructor-card {
+        width: 200px;
+        padding: 6px;
+        flex-shrink: 0;
+    }
+
+    .instructor__card-details {
+        padding: 14px 12px;
+    }
+
+    .instructor-card__name {
+        font-size: 1rem;
+    }
+
+    .instructor-card__role {
+        font-size: 14px;
+    }
+
+    .instructor-card__share {
+        width: 32px;
+        height: 32px;
+        bottom: 4.2rem;
+        right: 0.8rem;
+    }
+
+    .instructor-card__share svg {
+        width: 16px;
+        height: 16px;
+    }
+}
