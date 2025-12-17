@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
 @import "tailwindcss";
-@import "./normalize.css";
+/* @import "./normalize.css"; */
 
 @theme{
     /* ========Brand Colors======== */
     --color-primary: #00BEAE;
     --color-secondary: #FF9500;
-    --color-blue-zodiac: #17254E;
-    ---color-floral-white: #FFF8F0;
-    --color-white-smoke: #F3F5F5;
+    --color-accent: #17254E;
+    --color-light-background: #FFF8F0;
+    --color-grey-background: #F3F5F5;
     --color-orange: #FE543D;
 
     /* ========Text Colors========= */
     --color-text-primary: #0E2A46;
     --color-text-secondary: #333931;
-    --color-text-accent: #4D5756; 
+    --color-text-accent: #4D5756;
 
     /* =========Font Family========== */
      --font-sora: "Sora", sans-serif;
     --font-epilogue: "Epilogue", sans-serif;
 
     /* ===========Typography========= */
-    --font-size-xs: 0.75rem; /*12px*/
+     --font-size-xs: 0.75rem; /*12px*/
     --font-size-sm: 0.875rem; /*14px*/
     --font-size-base: 1rem; /*16px*/
     --font-size-lg: 1.125rem; /*18px*/

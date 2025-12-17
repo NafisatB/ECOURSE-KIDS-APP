@@ -1,0 +1,26 @@
+.info-overlay {
+    box-shadow: 0px 0px 20px 0px #02347526;
+    background-color: white;
+    width: fit-content;
+    align-items: center;
+    padding: 0.9rem 2.5rem;
+    border-radius: 62.5rem;
+    gap: 10px;
+    font-family: var(--font-sora);
+}
+
+.info-overlay__text--title {
+    font-size: var(--font-size-2xl);
+}
+
+.info-overlay__text--desc {
+    font-size: var(--font-size-xl);
+}
+
+.info-overlay--secondary .info-overlay__text--title {
+    color: var(--color-secondary);
+}
+
+.info-overlay--primary .info-overlay__text--title {
+    color: var(--color-primary);
+}
