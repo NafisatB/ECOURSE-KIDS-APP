@@ -1,11 +1,11 @@
-import TimeIcon from "../../assets/icons/time.svg?react";
-import LocationIcon from "../../assets/icons/location.svg?react";
-import UkIcon from "../../assets/icons/uk.svg?react";
-import ArrowDownIcon from "../../assets/icons/arrow-down.svg?react";
-import FacebookIcon from "../../assets/icons/facebook.svg?react";
-import TwitterIcon from "../../assets/icons/twitter.svg?react";
-import SkypeIcon from "../../assets/icons/skype.svg?react";
-import LinkedinIcon from "../../assets/icons/linkedin.svg?react";
+import TimeIcon from "../../../assets/icons/time.svg?react";
+import LocationIcon from "../../../assets/icons/location.svg?react";
+import UkIcon from "../../../assets/icons/uk.svg?react";
+import ArrowDownIcon from "../../../assets/icons/arrow-down.svg?react";
+import FacebookIcon from "../../../assets/icons/facebook.svg?react";
+import TwitterIcon from "../../../assets/icons/twitter.svg?react";
+import SkypeIcon from "../../../assets/icons/skype.svg?react";
+import LinkedinIcon from "../../../assets/icons/linkedin.svg?react";
 
 export const PageBanner = () => {
   return (

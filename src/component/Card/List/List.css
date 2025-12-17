@@ -1,0 +1,29 @@
+.list-card {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: #191659;
+
+    @media (max-width: 768px) {
+        font-size: var(--font-size-sm);
+    }
+}
+
+.list-card.list-card--primary {
+    gap: 0.7rem;
+    height: 54px;
+    border-radius: 5px;
+    background-color: var(--color-grey-background);
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.list-card.list-card--secondary {
+    text-transform: capitalize;
+    font-size: var(--font-size-xl);
+    gap: 5px;
+
+    @media (max-width: 768px) {
+        font-size: var(--font-size-lg);
+    }
+}

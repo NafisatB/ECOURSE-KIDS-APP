@@ -1,14 +1,14 @@
-import HeroBird from '../../assets/images/hero-bird.svg?react'
-import HeroSun from '../../assets/images/hero-sun.svg?react'
+import HeroBird from '../../../assets/images/hero-bird.svg?react'
+import HeroSun from '../../../assets/images/hero-sun.svg?react'
 import { Button } from '../../Button/Button'
-import PlayIcon from '../../assets/icons/play.svg?react'
-import HeroCross from '../../assets/icons/hero-cross.svg?react'
-import HeroArrow from '../../assets/icons/hero-arrow.svg?react'
-import Cloud from '../../assets/images/cloud.svg?react'
-import HeroChild1 from '../../assets/images/hero-child1.svg?react'
-import HeroChild2 from '../../assets/images/hero-child2.svg?react'
+import PlayIcon from '../../../assets/icons/play.svg?react'
+import HeroCross from '../../../assets/icons/hero-cross.svg?react'
+import HeroArrow from '../../../assets/icons/hero-arrow.svg?react'
+import Cloud from '../../../assets/images/cloud.svg?react'
+import HeroChild1 from '../../../assets/images/hero-child1.svg?react'
+import HeroChild2 from '../../../assets/images/hero-child2.svg?react'
 import { Overlay } from '../Overlay/Overlay'
-import OverlayImg from '../../assets/images/overlay.svg?react'
+import OverlayImg from '../../../assets/images/overlay.svg?react'
 
 export function Hero() {
     return(

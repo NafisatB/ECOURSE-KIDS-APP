@@ -1,6 +1,7 @@
 import {PageHeader} from '../component/LandingPageSection/PageHeader/PageHeader'
 import {Hero} from '../component/LandingPageSection/HeroSection/Hero'
 import {Info} from '../component/LandingPageSection/InfoUnderHero/Info'
+import { AboutUs } from '../component/LandingPageSection/AboutUs/AboutUs'
 
 export const LandingPage = ()=> {
     return(
@@ -11,8 +12,8 @@ export const LandingPage = ()=> {
             <main>
                 <Hero />
                  <Info />
-                {/* // <AboutUs />
-                // <MidSection />
+                <AboutUs />
+                {/* // <MidSection />
                 // <WhyUs />
                 // <Testimonials />
                 // <Instructors />

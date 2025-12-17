@@ -1,7 +1,7 @@
 import { InfoContainer } from "./InfoContainer";
-import InfoIcon1 from '../../assets/icons/info-icon1.svg?react'
-import InfoIcon2 from '../../assets/icons/info-icon2.svg?react'
-import InfoIcon3 from '../../assets/icons/info-icon3.svg?react'
+import InfoIcon1 from '../../../assets/icons/info-icon1.svg?react'
+import InfoIcon2 from '../../../assets/icons/info-icon2.svg?react'
+import InfoIcon3 from '../../../assets/icons/info-icon3.svg?react'
 
 export function Info() {
     return(
