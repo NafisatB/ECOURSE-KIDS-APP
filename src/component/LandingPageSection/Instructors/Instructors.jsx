@@ -7,7 +7,7 @@ import { InstructorsCard } from './InstructorsCard'
 import Teacher1 from '../../../assets/images/teacher1.svg?react'
 import Teacher2 from '../../../assets/images/teacher2.svg?react'
 import Teacher3 from '../../../assets/images/teacher3.svg?react'
-import Teacher4 from '../../../assets/images/Teacher4.svg?react'
+import Teacher4 from '../../../assets/images/teacher4.svg?react'
 
 export function Instructors() {
     const scrollRef = useRef(null)
