@@ -61,3 +61,11 @@ React handles events using camelCase syntax, such as onClick and onChange. User 
 React Hooks are special functions that allow function components to use React features such as state and lifecycle behavior. Common Hooks include useState for state management, useEffect for side effects, useRef for accessing DOM elements directly, useCallback for memoizing functions, useMemo for memoizing expensive computations, useContext for sharing data without prop drilling, and useReducer for managing complex state logic. Hooks can only be used inside function components and have largely replaced class-based patterns.
 
 In addition to React, understanding the JavaScript HTML DOM is important. The DOM (Document Object Model) represents a web page as a tree of objects that JavaScript can interact with. The document object is the entry point for accessing and modifying the page. Developers can find elements using methods such as getElementById, getElementsByTagName, getElementsByClassName, and querySelectorAll. Once elements are selected, their content, attributes, and styles can be changed, and new elements can be added or removed. Overall, the DOM allows JavaScript to dynamically update web pages after they load.
+
+
+## Feedback For the Instructor
+Goodday Sir, 
+I attached the Summary of the React Assignment on the feedback panel, but can't resubmit the form, hence, including it here instead.
+
+
+I really appreciate the way you push us to study more independently through intensive, back-to-back assignments and strict deadlines. This approach has challenged me to improve my discipline, time management, and commitment to frontend development. To be honest, when you were away and other instructors took the classes, I felt less engaged because the same level of energy and motivation was missing. Although the workload can be very demanding and often leaves us feeling worn out due to sleepless nights, I understand that this process is helping us build resilience and mental strength. Your teaching style motivates us to do better and take responsibility for our learning. I kindly ask that you consider our sleepless nights when grading our assessments. Thank you for your dedication and effort, sir.
