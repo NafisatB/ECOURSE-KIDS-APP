@@ -1,16 +1,41 @@
-# React + Vite
+# Edunity Kids School Hub#
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive kids learning platform landing page built with React, Vite, and Tailwind CSS.
+Designed with a mobile-first approach, reusable components, and clean UI patterns.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 https://ecourse-kids-app.vercel.app/
 
-## React Compiler
+### 🧰 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- CSS
+- SVG assets
+- Font Awesome
 
-## Expanding the ESLint configuration
+#### ⭐ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive (mobile, tablet, desktop)
+- Component-based architecture
+- Modern, child-friendly UI
+- Optimized SVG assets
+- SEO-ready structure
+
+##### 🚀 Run Locally
+- git clone https://github.com/NafisatB/ECOURSE-KIDS-APP
+- cd ECOURSE-KIDS-APP
+- npm install
+- npm run dev
+
+###### 📄 License
+
+MIT License
+
+###### 📬 Contact
+
+**Email:** [babamusanafisat1@gmail.com](mailto:babamusanafisat1@gmail.com)
+**LinkedIn:** [Nafisat Ogbown Babamusa](https://www.linkedin.com/in/babamusa/) 
+(mailto:nyamburanandabi@gmail.com) 
