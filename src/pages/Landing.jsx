@@ -7,6 +7,8 @@ import { WhyUs } from '../component/LandingPageSection/WhyUs/WhyUs'
 import { Testimonial } from '../component/LandingPageSection/Testimonial/Testimonial'
 import { Instructors } from '../component/LandingPageSection/Instructors/Instructors'
 import { Newsletter } from '../component/LandingPageSection/Newsletter/Newsletter'
+import { Footer } from '../component/Footer/Footer'
+import FooterBg from '../assets/images/footer.jpg'
 
 export const LandingPage = ()=> {
     return(
@@ -24,9 +26,9 @@ export const LandingPage = ()=> {
                 <Instructors />
                  <Newsletter />
             </main>
-            {/* // <footer style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">
-            //     <Footer />
-            // </footer> */}
+           <footer style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">
+                <Footer />
+            </footer>
         </div>
     )
 }
