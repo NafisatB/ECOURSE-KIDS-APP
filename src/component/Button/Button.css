@@ -7,7 +7,9 @@
     cursor: pointer;
     font-size: var(--font-size-xs);
     text-transform: capitalize;
+
 }
+
 
 /* variants */
 .primary {
@@ -30,8 +32,48 @@
     font-weight: bold;
 }
 
+.tertiary {
+    background-color: var(--color-asmani-sky);
+    transition: all 0.3s ease;
+    font-weight: bold;
+    padding: 1px 6px;
+    border-radius: 200px;
+    border: none;
+    color: white;
+    font-family: var(--font-sora);
+    cursor: pointer;
+    text-transform: capitalize;
+    display: flex;
+    line-height: 58px;
+    padding-inline: 1.5rem;
+    padding-inline-end: 0;
+    gap: 1.5rem;
+
+}
+
+.tertiary:hover {
+    color: var(--color-asmani-sky);
+    border-color: var(--color-asmani-sky);
+    background-color: transparent;
+}
+
 .secondary:hover {
     color: var(--color-secondary);
-    border-color:  var(--color-secondary);
+    border-color: var(--color-secondary);
     background-color: transparent;
+}
+
+.btn .btn__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn .btn__icon--right {
+    flex-shrink: 0;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: var(--color-jadeite);
+    color: white;
 }
