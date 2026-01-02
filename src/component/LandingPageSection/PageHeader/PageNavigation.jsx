@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from 'react';
 import EdunityLogo from '../../../assets/icons/edunity-logo.svg?react'
 import ArrowDownIcon from '../../../assets/icons/arrow-down.svg?react'
@@ -19,8 +20,8 @@ export function PageNavigation () {
                         Home 
                         <ArrowDownIcon />
                     </li>
-                    <li>
-                        About Us
+                    <li className="border border-transparent rounded-xl p-1 transition-colors duration-300 hover:border-primary overflow-hidden">
+                        <Link to='/about'>About Us</Link>
                     </li>
                     <li className='flex items-center gap-1'>
                         Courses 
@@ -34,8 +35,8 @@ export function PageNavigation () {
                         Blog 
                          <ArrowDownIcon />
                     </li>
-                    <li>
-                        Contact
+                    <li className="border border-transparent rounded-xl p-1 transition-colors duration-300 hover:border-primary overflow-hidden">
+                        <a href="#contact" className="cursor-pointer">Contact</a>
                     </li>
                 </ul>
 

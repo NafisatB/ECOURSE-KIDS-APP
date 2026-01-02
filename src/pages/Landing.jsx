@@ -26,7 +26,7 @@ export const LandingPage = ()=> {
                 <Instructors />
                  <Newsletter />
             </main>
-           <footer style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">
+           <footer id="contact" style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">
                 <Footer />
             </footer>
         </div>
