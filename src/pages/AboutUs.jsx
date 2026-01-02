@@ -1,6 +1,8 @@
 import {PageHeaderAbtUs} from '../component/LandingPageSection/PageHeader/PageHeaderAbtUs'
 import  {SubHeader} from '../component/Card/SubHeader/SubHeader'
-import {AboutUs} from '../component/LandingPageSection/AboutUs/AboutUs2'
+import {AboutUs} from '../component/AboutPageSection/AboutUs/AboutUs2'
+import { Testimonial } from '../component/AboutPageSection/Testimonial/Testimonial'
+import BgTestimonial from '../assets/images/bg-testimonial.jpg'
 export const AboutPage = () => {
     return (
         <div className="relative md:max-w-[1920px] mx-auto overflow-x-hidden">
@@ -17,6 +19,7 @@ export const AboutPage = () => {
                 </>
             }/>
             <AboutUs/>
+            <Testimonial style={{ backgroundImage: `url(${BgTestimonial})` }} className="bg-cover bg-center" />
         </div>
     )
 }
