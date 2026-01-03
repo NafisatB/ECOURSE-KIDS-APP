@@ -12,8 +12,8 @@ export function Testimonial() {
 
         <div className="relative lg:py-30 py-15 px-5 lg:px-0">
 
-            <div style={{ backgroundImage: `url(${BorderBg})` }} className="border w-[1320px] h-[188px] rounded-[200px] bg-light-orange absolute left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
-                <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-0 gap-4 max-w-[1200px] mx-auto lg:mb-20 mb-10 px-5 lg:px-0 py-5 lg:py-0">
+            <div style={{ backgroundImage: `url(${BorderBg})` }} className="border-none w-[1320px] h-[170px] rounded-[200px] p-6 bg-light-orange bg-center absolute left-1/2  -translate-x-1/2 -translate-y-1/3">
+                <div className=" grid lg:grid-cols-4 grid-cols-2 lg:gap-0 gap-4 max-w-[1200px] mx-auto lg:mb-20 mb-10 px-5 lg:px-0 py-5 lg:py-0">
                     <div className="relative flex flex-col justify-center">
                         <Stats
                             variant='secondary'
