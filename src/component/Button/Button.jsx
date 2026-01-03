@@ -9,7 +9,7 @@ export function Button({ text, variant = "primary", rightIcon, className = "", .
             <span className="btn__text">{text}</span>
 
             {rightIcon && (
-                <span className="btn__icon btn__icon--right">
+                <span className="btn__icon btn__icon--right btn__icon--right__tertiary">
                     {rightIcon}
                 </span>
             )}

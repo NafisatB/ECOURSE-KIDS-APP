@@ -36,16 +36,15 @@
     background-color: var(--color-asmani-sky);
     transition: all 0.3s ease;
     font-weight: bold;
-    padding: 1px 6px;
+    height: 4rem;
     border-radius: 200px;
     border: none;
     color: white;
     font-family: var(--font-sora);
     cursor: pointer;
+    align-items: center;
     text-transform: capitalize;
     display: flex;
-    line-height: 58px;
-    padding-inline: 1.5rem;
     padding-inline-end: 0;
     gap: 1.5rem;
 
@@ -76,4 +75,27 @@
     border-radius: 50%;
     background-color: var(--color-jadeite);
     color: white;
+}
+
+
+.pro{
+    background-color: var(--color-candy-grape-fizz);
+    transition: all 0.3s ease;
+    font-weight: bold;
+    height: 3rem;
+    border-radius: 0;
+    border: none;
+    color: white;
+    font-family: var(--font-sora);
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+
+.pro.btn .btn__icon--right__tertiary{
+    background-color: transparent;
+     width: auto;
 }

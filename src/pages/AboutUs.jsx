@@ -2,6 +2,7 @@ import {PageHeaderAbtUs} from '../component/LandingPageSection/PageHeader/PageHe
 import  {SubHeader} from '../component/Card/SubHeader/SubHeader'
 import {AboutUs} from '../component/AboutPageSection/AboutUs/AboutUs2'
 import { Testimonial } from '../component/AboutPageSection/Testimonial/Testimonial'
+import {Courses} from '../component/AboutPageSection/Courses/Courses'
 
 export const AboutPage = () => {
     return (
@@ -20,6 +21,7 @@ export const AboutPage = () => {
             }/>
             <AboutUs/>
             <Testimonial />
+            <Courses/>
         </div>
     )
 }
