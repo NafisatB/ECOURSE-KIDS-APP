@@ -10,17 +10,20 @@
 }
 
 .rating__star {
-    color: #e8e8e8;
+    color: var(--color-light-orange);
+    font-family: var(--font-sora);
+    font-weight: 900;
     font-size: 0.875rem;
     transition: color 0.2s ease;
 }
 
 .rating__star--filled {
-    color: #ff9d6a;
+    color: var(--color-light-orange);
 }
 
 .rating__count {
     font-size: 0.875rem;
-    color: #6b7280;
-    font-weight: 600;
+    color: #4D5756;
+    font-family: var(--font-epilogue);
+    font-weight: 500;
 }

@@ -1,12 +1,12 @@
 .course-card {
-    background: white;
+    background-color:  #F4F5F8;
     border: 1px dashed grey;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 380px;
-    padding: 1rem;
+    max-width: 420px;
+    padding: 1.5rem;
 }
 
 
@@ -36,63 +36,48 @@
 }
 
 .course-card__content {
-    padding: 1.5rem;
+    background-image: url('/src/assets/images/course-card-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .course-card__title {
-    font-size: 1.125rem;
-    font-weight: 700;
-    color: #1a1d2e;
+    font-family: var(--font-epilogue);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-text-primary);
     margin: 0 0 1rem 0;
-    line-height: 1.4;
+    line-height: 33px;
 }
 
 .course-card__rating-price {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
 }
 
 .course-card__price {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #1a1d2e;
+    font-family: var(--font-epilogue);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var( --color-candy-grape-fizz);
 }
 
-.rating {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.rating__stars {
-    display: flex;
-    gap: 0.25rem;
-}
-
-.rating__star {
-    color: #e8e8e8;
-    font-size: 0.875rem;
-    transition: color 0.2s ease;
-}
-
-.rating__star--filled {
-    color: #ff9d6a;
-}
-
-.rating__count {
-    font-size: 0.875rem;
-    color: #6b7280;
-    font-weight: 600;
-}
 
 .course-card__meta {
     display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+    flex-direction: row;
+    border: 1px solid;
+    background-color: white;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 1.5rem;
 }
 

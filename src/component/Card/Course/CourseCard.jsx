@@ -26,12 +26,13 @@ export function CourseCard({
             </div>
 
             <div className="course-card__content">
-                <h3 className="course-card__title">{title}</h3>
-
+                
                 <div className="course-card__rating-price">
                     <Rating stars={rating} count={ratingCount} />
                     {price && <span className="course-card__price">{price}</span>}
                 </div>
+
+                <h3 className="course-card__title">{title}</h3>
 
                 <div className="course-card__meta">
                     {lessonNumber && (
