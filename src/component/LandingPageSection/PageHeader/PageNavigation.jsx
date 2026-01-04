@@ -1,62 +1,84 @@
-import { Link } from "react-router-dom";
+
 import { useState } from 'react';
 import EdunityLogo from '../../../assets/icons/edunity-logo.svg?react'
 import ArrowDownIcon from '../../../assets/icons/arrow-down.svg?react'
 import SearchIcon from '../../../assets/icons/search.svg?react';
 import UserIcon from '../../../assets/icons/user.svg?react';
 import { Button } from '../../Button/Button';
+import { NavDropdown } from "./NavDropdown";
+import { NavItem } from "./NavItem";
 
-export function PageNavigation () {
+export function PageNavigation() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
-    return(
+    return (
         <nav className='relative max-w-[1320px] mx-auto py-2 font-sora text-sm px-2 md:px-0 z-50'>
             <div className="flex items-center justify-between">
-                <EdunityLogo className="h-10 lg:h-auto"/>
+                <EdunityLogo className="h-10 lg:h-auto" />
 
                 {/* desktop menu */}
-                <ul className='hidden lg:flex text-text-primary gap-10 text-[17px]'>
-                    <li className='flex items-center gap-1'>
-                        Home 
-                        <ArrowDownIcon />
-                    </li>
-                    <li className="border border-transparent rounded-xl p-1 transition-colors duration-300 hover:border-primary overflow-hidden">
-                        <Link to='/about'>About Us</Link>
-                    </li>
-                    <li className='flex items-center gap-1'>
-                        Courses 
-                         <ArrowDownIcon />
-                    </li>
-                    <li className='flex items-center gap-1'>
-                        Pages 
-                         <ArrowDownIcon />
-                    </li>
-                    <li className='flex items-center gap-1'>
-                        Blog 
-                         <ArrowDownIcon />
-                    </li>
-                    <li className="border border-transparent rounded-xl p-1 transition-colors duration-300 hover:border-primary overflow-hidden">
-                        <a href="#contact" className="cursor-pointer">Contact</a>
-                    </li>
+                <ul className="hidden lg:flex text-text-primary gap-10 text-[17px]">
+                    <NavDropdown
+                        label="Home"
+                        items={[
+                            { label: "Landing 1", to: "/" },
+                            { label: "Landing 2", to: "/home-2" },
+                        ]}
+                    />
+
+                    <NavItem to="/about">About Us</NavItem>
+
+                    <NavDropdown
+                        label="Courses"
+                        items={[
+                            { label: "Courses Details", to: "/courses/Details" },
+                            { label: "Courses Style 1", to: "/courses/Style1" },
+                            { label: "Courses Style 2", to: "/courses/Style2" },
+                        ]}
+                    />
+
+                    <NavDropdown
+                        label="Pages"
+                        items={[
+                            { label: "Testimonial", to: "/testimonial" },
+                            { label: "FAQ", to: "/faq" },
+                            { label: "Pricing Tables", to: "/pricing" },
+                            { label: "Shop", to: "/shop" },
+                            { label: "Cart", to: "/cart" },
+                            { label: "Checkout", to: "/checkout" },
+                            { label: "SIGN UP", to: "/signup" },
+                            { label: "SIGN IN", to: "/signin" }
+                        ]}
+                    />
+
+                    <NavDropdown
+                        label="Blog"
+                        items={[
+                            { label: "All Posts", to: "/blog" },
+                            { label: "Categories", to: "/blog/categories" },
+                        ]}
+                    />
+
+                    <NavItem to="/contact">Contact</NavItem>
                 </ul>
 
                 {/* desktop icons */}
                 <ul className='hidden lg:flex items-center gap-5'>
                     <li>
-                        <SearchIcon className='cursor-pointer'/>
+                        <SearchIcon className='cursor-pointer' />
                     </li>
                     <li>
                         <UserIcon className='cursor-pointer' />
                     </li>
                     <li>
                         <Button
-                        text="Contact"
-                        variant="secondary" />
+                            text="Contact"
+                            variant="secondary" />
                     </li>
                 </ul>
 
                 {/* mobile menu button */}
-                <button 
+                <button
                     className='lg:hidden text-text-primary'
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     aria-label="Toggle menu"
@@ -78,23 +100,23 @@ export function PageNavigation () {
                 <div className="lg:hidden absolute right-0 top-full w-80 px-5 py-5 bg-white shadow-lg border-t border-gray-200">
                     <ul className='flex flex-col text-text-primary gap-8'>
                         <li className='flex items-center justify-between'>
-                            Home 
+                            Home
                             <ArrowDownIcon />
                         </li>
                         <li>
                             About Us
                         </li>
                         <li className='flex items-center justify-between'>
-                            Courses 
-                             <ArrowDownIcon />
+                            Courses
+                            <ArrowDownIcon />
                         </li>
                         <li className='flex items-center justify-between'>
-                            Pages 
-                             <ArrowDownIcon />
+                            Pages
+                            <ArrowDownIcon />
                         </li>
                         <li className='flex items-center justify-between'>
-                            Blog 
-                           <ArrowDownIcon />
+                            Blog
+                            <ArrowDownIcon />
                         </li>
                         <li>
                             Contact
@@ -104,7 +126,7 @@ export function PageNavigation () {
                     <div className='flex justify-between items-center'>
                         <ul className='flex items-center justify-center gap-5 mt-6 pt-4 border-t border-gray-200'>
                             <li>
-                                <SearchIcon width={20} className='cursor-pointer'/>
+                                <SearchIcon width={20} className='cursor-pointer' />
                             </li>
                             <li>
                                 <UserIcon width={20} className='cursor-pointer' />
@@ -113,8 +135,8 @@ export function PageNavigation () {
 
                         <div className="mt-4 flex justify-center">
                             <Button
-                            text="Contact"
-                            variant="secondary" />
+                                text="Contact"
+                                variant="secondary" />
                         </div>
                     </div>
                 </div>
