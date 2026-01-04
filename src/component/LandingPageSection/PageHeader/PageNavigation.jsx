@@ -31,9 +31,9 @@ export function PageNavigation() {
                     <NavDropdown
                         label="Courses"
                         items={[
-                            { label: "Courses Details", to: "/courses/Details" },
-                            { label: "Courses Style 1", to: "/courses/Style1" },
-                            { label: "Courses Style 2", to: "/courses/Style2" },
+                            { label: "Courses Details", to: "/details" },
+                            { label: "Courses Style 1", to: "/style1" },
+                            { label: "Courses Style 2", to: "/style2" },
                         ]}
                     />
 

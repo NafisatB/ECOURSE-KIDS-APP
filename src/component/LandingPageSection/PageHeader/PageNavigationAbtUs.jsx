@@ -6,7 +6,7 @@ import ArrowDownIcon from '../../../assets/icons/arrow-down.svg?react'
 import SearchIcon from '../../../assets/icons/search.svg?react';
 import { NavDropdown } from "./NavDropdown";
 import { NavItem } from "./NavItem";
-import { Button } from '../../Button/Button';
+
 
 export function PageNavigationAbtUs() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -35,9 +35,9 @@ export function PageNavigationAbtUs() {
                     <NavDropdown
                         label="Courses"
                         items={[
-                            { label: "Courses Details", to: "/courses/Details" },
-                            { label: "Courses Style 1", to: "/courses/Style1" },
-                            { label: "Courses Style 2", to: "/courses/Style2" },
+                            { label: "Courses Details", to: "/details" },
+                            { label: "Courses Style 1", to: "/style1" },
+                            { label: "Courses Style 2", to: "/style2" },
                         ]}
                     />
 
