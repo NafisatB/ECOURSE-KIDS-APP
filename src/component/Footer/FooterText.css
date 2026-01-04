@@ -15,12 +15,20 @@
 }
 
 
-.footer-info__details span {
+.footer-text {
     font-size: 15px;
     font-family: var(--font-sora);
-    color: var(--color-primary);
     line-height: 32px;
 }
+
+.footer-text.text-primary {
+    color: var(--color-primary);
+}
+
+.footer-text.text-secondary {
+    color: var(--color-slate-blue);
+}
+
 
 .footer-info__details p {
     font-size: 20px;

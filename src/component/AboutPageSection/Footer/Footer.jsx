@@ -1,18 +1,18 @@
-import { FooterText } from './FooterText'
-import LocationIcon from '../../assets/icons/location.svg?react'
-import PhoneIcon from '../../assets/icons/phone.svg?react'
-import EnvelopeIcon from '../../assets/icons/envelope.svg?react'
-import FooterLogo from '../../assets/images/footer-logo.svg?react'
+import { FooterText } from '../../Footer/FooterText'
+import LocationIcon from '../../../assets/icons/location.svg?react'
+import PhoneIcon from '../../../assets/icons/phone.svg?react'
+import EnvelopeIcon from '../../../assets/icons/envelope.svg?react'
+import FooterLogo from '../../../assets/images/footer-logo2.svg?react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram, faPinterestP, faTwitter} from '@fortawesome/free-brands-svg-icons'
-import ArrowIcon from '../../assets/icons/arrow-right.svg?react'
-import FooterImg1 from '../../assets/images/gallery-footer1.svg?react'
-import FooterImg12 from '../../assets/images/gallery-footer2.svg?react'
-import FooterImg3 from '../../assets/images/gallery-footer3.svg?react'
-import FooterImg4 from '../../assets/images/gallery-footer4.svg?react'
-import FooterImg5 from '../../assets/images/gallery-footer5.svg?react'
-import FooterImg6 from '../../assets/images/gallery-footer6.svg?react'
-import { Button } from '../Button/Button'
+import ArrowIcon from '../../../assets/icons/arrow-right.svg?react'
+import FooterImg1 from '../../../assets/images/gallery-footer1.svg?react'
+import FooterImg12 from '../../../assets/images/gallery-footer2.svg?react'
+import FooterImg3 from '../../../assets/images/gallery-footer3.svg?react'
+import FooterImg4 from '../../../assets/images/gallery-footer4.svg?react'
+import FooterImg5 from '../../../assets/images/gallery-footer5.svg?react'
+import FooterImg6 from '../../../assets/images/gallery-footer6.svg?react'
+import { Button } from '../../Button/Button'
 
 export function Footer() {
     return(
@@ -24,8 +24,9 @@ export function Footer() {
                         <FooterText
                         icon={<LocationIcon />}
                         text="Address"
-                        variant='text-primary'
+                        variant='text-secondary'
                         info="1925 Boggess Street"
+                        className=''
                         />
                     </div>
 
@@ -33,7 +34,7 @@ export function Footer() {
                         <FooterText
                         icon={<PhoneIcon />}
                         text="Phone"
-                        variant='text-primary'
+                        variant='text-secondary'
                         info="(00) 875 784 568"
                         />
                     </div>
@@ -41,6 +42,7 @@ export function Footer() {
                         <FooterText
                         icon={<EnvelopeIcon />}
                         text="Email"
+                        variant='text-secondary'
                         info="info@gmail.com"
                         />
                     </div>
@@ -56,16 +58,16 @@ export function Footer() {
                     <p className='text-white font-sora lg:text-[17px] leading-[28px] max-w-[350px]'>Interdum velit laoreet id donec ultrices tincidunt arcu. Tincidunt tortor aliqua mfacilisi cras fermentum odio eu.</p>
                     <div className='flex gap-2'>
                         <a href='https://www.facebook.com' target="_blank" className='bg-text-accent h-11.25 w-11.25 flex items-center justify-center rounded-full'>
-                            <FontAwesomeIcon icon={faFacebookF} size="lg" style={{color: "#00beae"}} />
+                            <FontAwesomeIcon icon={faFacebookF} size="lg" style={{color: "#FC6441"}} />
                         </a>
                         <a href='https://www.instagram.com' target="_blank" className='bg-text-accent h-11.25 w-11.25 flex items-center justify-center rounded-full'>
-                            <FontAwesomeIcon icon={faInstagram} size="lg" style={{color: "#00beae",}} />
+                            <FontAwesomeIcon icon={faInstagram} size="lg" style={{color: "#FC6441",}} />
                         </a>
                         <a href='https://www.pinterest.com' target="_blank" className='bg-text-accent h-11.25 w-11.25 flex items-center justify-center rounded-full'>
-                            <FontAwesomeIcon icon={faPinterestP} size="lg" style={{color: "#00beae",}} />
+                            <FontAwesomeIcon icon={faPinterestP} size="lg" style={{color: "#FC6441",}} />
                         </a>
                         <a href='https://www.x.com' target="_blank" className='bg-text-accent h-11.25 w-11.25 flex items-center justify-center rounded-full'>
-                            <FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#00beae",}} />
+                            <FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#FC6441",}} />
                         </a>
                     </div>
                 </div>
@@ -112,11 +114,11 @@ export function Footer() {
                     placeholder="Enter your email"
                     className="h-[50px] md:h-[58px] bg-white pl-3 mb-5 w-full md:w-auto"
                     />
-                    <Button text="SUBSCRIBE NOW" style={{borderRadius: "5px", width: "fit-content"}} />
+                    <Button variant='orange' text="SUBSCRIBE NOW" style={{borderRadius: "5px", width: "fit-content",}} />
                 </div>
             </div>
             <div className='bg-[#222222] font-sora text-white flex h-[70px] justify-center items-center text-[14px]'>
-                <p>Copyright © 2025 <a href="https://github.com/NafisatB/ECOURSE-KIDS-APP" target="_blank" rel="noopener noreferrer" className='text-primary font-bold font-sora text-[17px]'>edunity</a> | All Rights Reserved.</p>
+                <p>Copyright © 2025 <a href="https://github.com/NafisatB/ECOURSE-KIDS-APP" target="_blank" rel="noopener noreferrer" className='text-light-orange font-bold font-sora text-[17px]'>edunity</a> | All Rights Reserved.</p>
             </div>
         </>
     )

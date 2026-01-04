@@ -32,6 +32,16 @@
     font-weight: bold;
 }
 
+.orange{
+    border: 1px solid transparent;
+    background-color: var(--color-light-orange);
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-family: var(--font-sora);
+    font-size: 15px;
+    
+}
+
 .tertiary {
     background-color: var(--color-asmani-sky);
     transition: all 0.3s ease;
