@@ -4,6 +4,8 @@ import EdunityLogo from '../../../assets/icons/edunity-logo-2.svg?react'
 import NavLine from '../../../assets/icons/nav-line.svg?react'
 import ArrowDownIcon from '../../../assets/icons/arrow-down.svg?react'
 import SearchIcon from '../../../assets/icons/search.svg?react';
+import { NavDropdown } from "./NavDropdown";
+import { NavItem } from "./NavItem";
 import { Button } from '../../Button/Button';
 
 export function PageNavigationAbtUs() {
@@ -17,37 +19,54 @@ export function PageNavigationAbtUs() {
                 </div>
                 <div>
                     {/* desktop menu/Icons */}
-                    <ul className='hidden lg:flex text-text-primary gap-10 font-sora leading-8 text-[17px] font-normal'>
-                        <li className='flex items-center gap-1'>
-                            Home
-                            <ArrowDownIcon />
-                        </li>
-                        <li className="border border-transparent rounded-xl p-1 transition-colors duration-300 hover:border-primary overflow-hidden">
-                            <Link to='/about'>About Us</Link>
-                        </li>
-                        <li className='flex items-center gap-1'>
-                            Courses
-                            <ArrowDownIcon />
-                        </li>
-                        <li className='flex items-center gap-1'>
-                            Pages
-                            <ArrowDownIcon />
-                        </li>
-                        <li className='flex items-center gap-1'>
-                            Blog
-                            <ArrowDownIcon />
-                        </li>
-                        <li className="border border-transparent rounded-xl p-1 transition-colors duration-300 hover:border-primary overflow-hidden">
-                            <a href="#contact" className="cursor-pointer">Contact</a>
-                        </li>
 
-                        <li className='flex items-center gap-1'>
-                            <SearchIcon className='cursor-pointer' />
-                        </li>
-                        <li className='flex items-center gap-1'>
-                            <NavLine className='cursor-pointer' />
-                        </li>
-                    </ul>
+
+                    <ul className="hidden lg:flex text-text-primary gap-10 font-sora leading-8 text-[17px] font-normal">
+                    <NavDropdown
+                        label="Home"
+                        items={[
+                            { label: "Landing 1", to: "/" },
+                            { label: "Landing 2", to: "/home-2" },
+                        ]}
+                    />
+
+                    <NavItem to="/about">About Us</NavItem>
+
+                    <NavDropdown
+                        label="Courses"
+                        items={[
+                            { label: "Courses Details", to: "/courses/Details" },
+                            { label: "Courses Style 1", to: "/courses/Style1" },
+                            { label: "Courses Style 2", to: "/courses/Style2" },
+                        ]}
+                    />
+
+                    <NavDropdown
+                        label="Pages"
+                        items={[
+                            { label: "Testimonial", to: "/testimonial" },
+                            { label: "FAQ", to: "/faq" },
+                            { label: "Pricing Tables", to: "/pricing" },
+                            { label: "Shop", to: "/shop" },
+                            { label: "Cart", to: "/cart" },
+                            { label: "Checkout", to: "/checkout" },
+                            { label: "SIGN UP", to: "/signup" },
+                            { label: "SIGN IN", to: "/signin" }
+                        ]}
+                    />
+
+                    <NavDropdown
+                        label="Blog"
+                        items={[
+                            { label: "All Posts", to: "/blog" },
+                            { label: "Categories", to: "/blog/categories" },
+                        ]}
+                    />
+
+                    <NavItem to="/contact">Contact</NavItem>
+                </ul>
+
+                    
                 </div>
 
             </div>

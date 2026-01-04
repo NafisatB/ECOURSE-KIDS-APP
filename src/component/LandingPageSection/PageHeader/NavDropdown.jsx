@@ -26,7 +26,7 @@ export function NavDropdown({ label, items, isMobile = false }) {
             <button
                 type="button"
                 onClick={() => setOpen(prev => !prev)}
-                className="flex items-center gap-1 px-1 py-1 rounded-xl border border-transparent transition-colors duration-300 hover:border-primary"
+                className=" text-text-primary flex font-sora leading-8 text-[17px] font-normalflex items-center gap-1 px-1 py-1 rounded-xl border border-transparent transition-colors duration-300 hover:border-primary"
                 aria-haspopup="true"
                 aria-expanded={open}
             >

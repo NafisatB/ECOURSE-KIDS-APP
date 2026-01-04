@@ -17,7 +17,7 @@ export function PageNavigation() {
                 <EdunityLogo className="h-10 lg:h-auto" />
 
                 {/* desktop menu */}
-                <ul className="hidden lg:flex text-text-primary gap-10 text-[17px]">
+                <ul className="hidden lg:flex text-text-primary gap-10 text-[17px]  font-sora leading-8 font-normal">
                     <NavDropdown
                         label="Home"
                         items={[
