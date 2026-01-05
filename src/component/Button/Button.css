@@ -103,6 +103,22 @@
     gap: 1.5rem;
 }
 
+.btn-course{
+    background-color: var(--color-candy-grape-fizz);
+    transition: all 0.3s ease;
+    font-weight: 400;
+    font-size: 15px;
+    height: 61px;
+    border-radius: 0;
+    border: none;
+    color: white;
+    font-family: var(--font-sora);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 
 
 .pro.btn .btn__icon--right__tertiary{

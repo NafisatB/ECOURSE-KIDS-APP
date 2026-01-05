@@ -17,7 +17,7 @@ import { Button } from '../Button/Button'
 export function Footer() {
     return(
         <>
-            <div className="relative z-10 max-w-[1320px] mx-auto">
+            <div className="relative z-10 max-w-[1320px] mx-auto hidden">
                 {/* top footer info */}
                 <div className="flex flex-col md:flex-row py-8 gap-6 md:gap-0">
                     <div className="flex-1 flex justify-center md:border-r border-white/40">
