@@ -3,7 +3,7 @@ import { SubHeader } from '../component/Card/SubHeader/SubHeader'
 import { Style1 } from '../component/CoursesPage/CourseStyle1'
 import { Footer } from '../component/AboutPageSection/Footer/Footer'
 import FooterBg from '../assets/images/footer.jpg'
-export function CourseStyle1() {
+export function CourseStyle2() {
     return (
         <div className="relative md:max-w-[1920px] mx-auto overflow-x-hidden">
             <header>
@@ -12,7 +12,7 @@ export function CourseStyle1() {
 
             <main>
                 <SubHeader
-                    title="COURSE STYLE 1"
+                    title="COURSE DETAILS"
                     breadcrumb={
                         <>
                             <span>Home</span>
@@ -20,11 +20,11 @@ export function CourseStyle1() {
                             <span>Course</span>
                         </>
                     } />
-                    <Style1/>
+                <Style1/>
             </main>
             <footer id="contact" style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">
-                            <Footer />
-                        </footer>
+                <Footer />
+            </footer>
         </div>
     )
 }
