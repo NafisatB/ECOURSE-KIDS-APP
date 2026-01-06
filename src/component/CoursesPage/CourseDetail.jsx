@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './CourseDetail.css';
 import { Rating } from '../Card/Course/Rating/Rating';
 import { Button } from '../Button/Button';
-import CourseImg5 from '../../assets/images/course-img5.svg'
+
 
 export function CDetail({
     image,

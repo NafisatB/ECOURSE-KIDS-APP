@@ -46,10 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.."
                     
-                    learningOutcomes= "Himenaeos. Vestibulum sollicitudin varius mauris non dignissim. Sed quis iaculis est. Nulla quam neque,
-interdum vitae fermentum lacinia, interdum eu magna. Mauris non posuere tellus. Donec quis euismod tellus.
-Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis Nullam
-sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum"
+                    learningOutcomes= {['Himenaeos. Vestibulum sollicitudin varius mauris non dignissim.Sed quis iaculis est. Nulla quam neque, interdum vitae fermentum lacinia interdum eu magna. Mauris non posuere tellus. Donec quis euismod tellus.Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis Nullam sed mi non odio feugiat volutpat sit amet nec elit.Maecenas id hendrerit ipsum']}
                     
                     
                     courseDetails={{
