@@ -39,7 +39,7 @@
     font-weight: 600;
     font-family: var(--font-sora);
     font-size: 15px;
-    
+  
 }
 
 .tertiary {
@@ -103,6 +103,7 @@
     gap: 1.5rem;
 }
 
+
 .btn-course{
     background-color: var(--color-candy-grape-fizz);
     transition: all 0.3s ease;
@@ -124,4 +125,13 @@
 .pro.btn .btn__icon--right__tertiary{
     background-color: transparent;
      width: auto;
+}
+
+.purple-btn.btn .btn__icon--right__tertiary{
+      flex-shrink: 0;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: var(--color-astro-purple);
+    color: white;
 }

@@ -15,7 +15,6 @@ export function CDetail({
     endTime,
     studentCount,
     tabs = ['Overview', 'Curriculum', 'Instructor', 'Reviews'],
-    tabContent = {},
     originalPrice,
     salePrice,
     money_back_guarantee,

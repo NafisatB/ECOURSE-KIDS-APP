@@ -1,5 +1,6 @@
 .courses-header {
     padding-bottom: 2rem;
+    min-width: 1350px;
 }
 
 .courses-header__container {
@@ -46,6 +47,26 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 61px;
+}
+
+.purple-btn.courses-header__button{
+    align-self: center;
+    white-space: nowrap;
+    background-color: var(--color-candy-grape-fizz);
+    font-weight: 400;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    height: 58.5px;
+    width: 241.55px;
+    border-radius: 200px;
+    border: none;
+    color: white;
+    font-family: var(--font-sora);
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    letter-spacing: -0.15px;
 }
 
 @media (max-width: 768px) {

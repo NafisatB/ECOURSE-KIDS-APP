@@ -22,54 +22,58 @@ export function Courses() {
             <CoursesHeader
                 label="OUR COURSES"
                 title="Creating A Community Of Life Long Learners."
-                onExplore={handleExplore}
+                buttonText="EXPLORE COURSES"
+                buttonVariant="pro"
+                buttonRightIcon="→"
+                onButtonClick={() => navigate('/courses')}
+
             />
 
-            <div style={{ padding: '2rem 1rem',}}>
+            <div style={{ padding: '2rem 1rem', }}>
                 <div style={{ maxWidth: '1320px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(380px, 0.5fr))', }}>
-                <CourseCard
-                    image={CourseImg1}
-                    badge="Digital Marketing"
-                    title="It Statistics Data Science And Business Analysis"
-                    rating={5}
-                    ratingCount={4.5}
-                    price="#50.00"
-                    lessonNumber={10}
-                    duration="19h 30m"
-                    studentCount="20+"
-                    instructor="Samantha"
-                    instructorAvatar={CourseInstructor1}
-                    onEnroll={handleEnroll}
-                />
+                    <CourseCard
+                        image={CourseImg1}
+                        badge="Digital Marketing"
+                        title="It Statistics Data Science And Business Analysis"
+                        rating={5}
+                        ratingCount={4.5}
+                        price="#50.00"
+                        lessonNumber={10}
+                        duration="19h 30m"
+                        studentCount="20+"
+                        instructor="Samantha"
+                        instructorAvatar={CourseInstructor1}
+                        onEnroll={handleEnroll}
+                    />
 
-                <CourseCard
-                    image={CourseImg2}
-                    badge="Digital Marketing"
-                    title="It Statistics Data Science And Business Analysis"
-                    rating={4}
-                    ratingCount={4.5}
-                    price="#50.00"
-                    lessonNumber={10}
-                    duration="19h 30m"
-                    studentCount="20+"
-                    instructor="Charles"
-                    instructorAvatar={CourseInstructor2}
-                    onEnroll={handleEnroll}
-                />
+                    <CourseCard
+                        image={CourseImg2}
+                        badge="Digital Marketing"
+                        title="It Statistics Data Science And Business Analysis"
+                        rating={4}
+                        ratingCount={4.5}
+                        price="#50.00"
+                        lessonNumber={10}
+                        duration="19h 30m"
+                        studentCount="20+"
+                        instructor="Charles"
+                        instructorAvatar={CourseInstructor2}
+                        onEnroll={handleEnroll}
+                    />
 
-                <CourseCard
-                    image={CourseImg3}
-                    badge="Digital Marketing"
-                    title="It Statistics Data Science And Business Analysis"
-                    rating={5}
-                    ratingCount={4.5}
-                    price="#50.00"
-                    lessonNumber={10}
-                    duration="19h 30m"
-                    studentCount="20+"
-                    instructor="Morgan"
-                    instructorAvatar={CourseInstructor3}
-                />
+                    <CourseCard
+                        image={CourseImg3}
+                        badge="Digital Marketing"
+                        title="It Statistics Data Science And Business Analysis"
+                        rating={5}
+                        ratingCount={4.5}
+                        price="#50.00"
+                        lessonNumber={10}
+                        duration="19h 30m"
+                        studentCount="20+"
+                        instructor="Morgan"
+                        instructorAvatar={CourseInstructor3}
+                    />
                 </div>
             </div>
         </div>
