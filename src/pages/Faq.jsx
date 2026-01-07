@@ -23,7 +23,7 @@ export function Faq() {
                         </>
                     } />
 
-                <FaqC />
+                <FaqC/>
             </main>
             <footer id="contact" style={{ backgroundImage: `url(${FooterBg})` }} className="bg-cover bg-center">
                 <Footer />
