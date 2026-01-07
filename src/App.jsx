@@ -6,6 +6,7 @@ import { AboutPage } from "./pages/AboutUs";
 import {CoursesDetails} from './pages/CoursesDetails'
 import {CourseStyle1} from './pages/CourseStyle1'
 import {CourseStyle2} from './pages/CourseStyle2'
+import { Testimonial } from "./pages/Testimonial";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       < Route path="details" element={<CoursesDetails/>}/>
       <Route path="style1" element={<CourseStyle1/>}/>
       <Route path="style2" element={<CourseStyle2/>}/>
+      <Route path="testimonial" element={<Testimonial/>}/>
     </Routes>
   )
 }
