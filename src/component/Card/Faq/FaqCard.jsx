@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './FAQCard.css';
+import './FaqCard.css';
 
-export function FAQCard({ question, answer, image, faqs = [] }) {
+export function FaqCard({ question, answer, image, faqs = [] }) {
     const [expandedIndex, setExpandedIndex] = useState(0);
 
     const toggleFAQ = (index) => {

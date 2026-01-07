@@ -1,4 +1,4 @@
-import { FAQCard } from './FaqCard';
+import { FaqCard } from './FaqCard';
 import FaqImg from '../../../assets/images/faq-img.svg'
 
 export function FaqC() {
@@ -29,7 +29,7 @@ export function FaqC() {
     return (
         <div style={{ padding: '8rem' }}>
             <div style={{ maxWidth: '1320px', margin: '0 auto' }}>
-                <FAQCard faqs={faqItems} />
+                <FaqCard faqs={faqItems} />
             </div>
         </div>
     );
