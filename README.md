@@ -35,7 +35,7 @@ Designed with a mobile-first approach, reusable components, and clean UI pattern
 MIT License
 
 ###### 📬 Contact
-
+Babamusa Nafisat Ogbown
 **Email:** [babamusanafisat1@gmail.com](mailto:babamusanafisat1@gmail.com)
 **LinkedIn:** [Nafisat Ogbown Babamusa](https://www.linkedin.com/in/babamusa/) 
 (mailto:nyamburanandabi@gmail.com) 
