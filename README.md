@@ -38,7 +38,7 @@ MIT License
 Babamusa Nafisat Ogbown
 **Email:** [babamusanafisat1@gmail.com](mailto:babamusanafisat1@gmail.com)
 **LinkedIn:** [Nafisat Ogbown Babamusa](https://www.linkedin.com/in/babamusa/) 
-(mailto:nyamburanandabi@gmail.com) 
+
 
 ## Documentation
 ### Summary of the React Assignment
